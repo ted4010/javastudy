@@ -1,4 +1,4 @@
-package pkg02_subst;
+package pkg02_substitute;
 
 public class MainClass {
 

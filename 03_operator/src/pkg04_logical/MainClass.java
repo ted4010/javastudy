@@ -1,4 +1,4 @@
-package pkg04_lo;
+package pkg04_logical;
 
 public class MainClass {
 
