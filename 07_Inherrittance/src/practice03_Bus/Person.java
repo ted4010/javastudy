@@ -2,11 +2,23 @@ package practice03_Bus;
 
 public class Person {
   
-  public void Man() {
-    System.out.println("남자");
-  }
-  
-  public void Woman() {
-    System.out.println("여자");
-  }
+//field
+ private String name;
+ 
+ // constructor
+ public Person() {
+ 
+ }
+ public Person(String name) {
+   super();
+   this.name = name;
+ }
+ 
+ // method
+ public String getName() {
+   return name;
+ }
+ public void setName(String name) {
+   this.name = name;
+ }
 }
