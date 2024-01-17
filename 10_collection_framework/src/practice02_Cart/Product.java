@@ -1,4 +1,4 @@
-package practice06_Cart;
+package practice02_Cart;
 
 public class Product {
 
