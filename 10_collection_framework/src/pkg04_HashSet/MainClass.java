@@ -1,4 +1,4 @@
-/package pkg04_HashSet;
+package pkg04_HashSet;
 
 import java.util.Arrays;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package practice03_Bus;
+package practice04_Bus;
 
 public class Man extends Person {
 

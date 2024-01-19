@@ -1,6 +1,8 @@
-package practice03_Bus;
+package practice04_Bus;
 
-public class Seat extends Person{
+
+
+public class Seat extends Person  {
 
   // field
   private Person person;
