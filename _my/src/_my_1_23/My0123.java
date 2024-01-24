@@ -23,9 +23,21 @@ public class My0123 {
     try {
       
       // 버퍼 출력 스트림 생성
-      out = new BufferedOutputStream(new FileOutputStream(file));
-    } catch ( e) {
-      // TODO: handle exception
+      out = new BufferedOutputStream(new FileOutputStream(file));  // 변수out에 file에 있는 데이터를 출력해서 저장
+                 /*기능향상 역할*/
+      
+      // 출력할 데이터
+      String str1 = "how do you do? nice to meet you\n";
+      String str2 = "i'm fine thank you";
+      
+      // 버퍼 출력 스트림 닫기
+      out.close(); //FileOutputStream을 더 이상 사용하지 않겠다는 의미
+      
+      // 확인
+      System.out.println(file.length() + "바이트 크기의 " + file.getPath() + " 파일이 생성되었습니다.");
+      
+    } catch (Exception e) { //try안에 예외가 발생하면 catch블록으로 이동하여 예외 처리 코드를 살행
+      e.printStackTrace();
     }
     
   }

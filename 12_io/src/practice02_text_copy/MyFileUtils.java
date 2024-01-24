@@ -35,20 +35,12 @@ public class MyFileUtils {
     }
   }  
     
-    
-    
-    
-    
-    
-    
-    
-    
   
 
   public static void fileMove(File src, File dest) {
     
     fileCopy(src, dest);
-    new File("C:\\storage\\sample1.txt").delete();
+    src.delete();
     
   }
 }
