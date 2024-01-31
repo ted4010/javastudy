@@ -29,7 +29,7 @@ public class UserDao {
   // Singleton Pattern
   private UserDao() {}
   private static UserDao userDao = new UserDao();
-  public static UserDao getInstance() {
+  public static UserDao getInstance() {           // getInstance()메소드는 싱글톤에서 유일하게 외부에서 객체를 얻는 방법이다.
     return userDao;
   }
   
