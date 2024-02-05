@@ -1,8 +1,8 @@
-package practice02;
+package practice02_Lotto;
 
 import java.util.List;
 
-public class MainClass {
+public class LottoMain {
 
   public static void main(String[] args) {
     

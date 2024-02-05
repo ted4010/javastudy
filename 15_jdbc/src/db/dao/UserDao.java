@@ -43,10 +43,15 @@ public class UserDao {
 
     try {
       
+      // oracle.jdbc.OracleDriver 클래스 로드
       Class.forName("oracle.jdbc.OracleDriver");
+      
+      // 데이터베이스 접속 정보
       String url = System.getProperty("jdbc.url");
       String user = System.getProperty("jdbc.user");
       String password = System.getProperty("jdbc.password");
+      
+      // connection 객체 생성
       con = DriverManager.getConnection(url, user, password);
       
     } catch (ClassNotFoundException e) {
