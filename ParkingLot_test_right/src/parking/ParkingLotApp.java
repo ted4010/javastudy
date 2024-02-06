@@ -1,7 +1,5 @@
 package parking;
 
-/* 코드 수정 금지 */
-
 public class ParkingLotApp {
 
   public static void main(String[] args) {

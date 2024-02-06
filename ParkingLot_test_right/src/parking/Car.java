@@ -1,7 +1,5 @@
 package parking;
 
-/* 코드 수정 금지 */
-
 public class Car {
 
   private String carNo;
@@ -33,4 +31,5 @@ public class Car {
   public String toString() {
     return "Car [carNo=" + carNo + ", model=" + model + "]";
   }
+  
 }
